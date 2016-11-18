@@ -2,7 +2,7 @@ import org.apache.spark.{SparkContext, SparkConf}
 /**
  * Created by daozhang on 2016/11/19.
  */
-object SogouCountB {
+object WordCountB {
     def main(args: Array[String]) {
       if (args.length == 0) {
         System.err.println("Usage:  <file1>")
