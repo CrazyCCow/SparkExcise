@@ -9,7 +9,7 @@ import org.apache.spark.SparkContext
 object SogouCountA {
   def main(args: Array[String]) {
     if (args.length == 0) {
-      System.err.println("Usage: SogouA <file1>")
+      System.err.println("Usage:  <file1>")
       System.exit(1)
     }
     val sdf = new SimpleDateFormat("HH:mm:ss")
