@@ -6,7 +6,7 @@ import org.apache.spark.SparkContext
 /**
  * Created by daozhang on 2016/11/18.
  */
-object WordCount {
+object SogouCountA {
   def main(args: Array[String]) {
     if (args.length == 0) {
       System.err.println("Usage: SogouA <file1>")
